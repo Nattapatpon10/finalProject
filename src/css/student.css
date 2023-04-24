@@ -37,6 +37,25 @@
         margin-bottom: 3rem !important;
         margin-left: auto !important;
     }
+
+    .box-2 {
+        flex-wrap: wrap;
+    }
+
+    .leave-date {
+        order: 1;
+    }
+
+    .im-num {
+        margin-top: 1rem;
+        order: 2;
+
+    }
+
+    #im-num {
+        width: 170px !important;
+        margin-left: 0px;
+    }
 }
 
 /* @media (max-width: 1800px) {
@@ -138,11 +157,12 @@
 .container-student .card-leave .leave-date {
     display: flex;
     width: 100%;
+
 }
 
 .container-student .card-leave #leave-type {
     border-radius: 7px;
-    margin-left: 2.5%;
+    margin-left: 2%;
 }
 
 .container-student .leave-detail #leave-date {
@@ -230,7 +250,8 @@ textarea {
 }
 
 #im-num {
-    width: 80%;
+    width: 150px;
+    margin-left: .5rem;
 }
 
 /* check box */
@@ -247,4 +268,10 @@ textarea {
     width: 13px;
     height: auto;
     margin-right: 5%;
+}
+
+.im-num {
+    display: flex;
+    align-items: center;
+    width: 100%;
 }

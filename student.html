@@ -37,7 +37,7 @@
         <div class="container">
             <a class="navbar-brand" href="index.html">
 
-                <img src="Assets/img/Npru-logo.png" alt="" class="rounded-pill me-3" />
+                <img src="src/images/Npru-logo.png" alt="" class="rounded-pill me-3" />
                 Studen Leave</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -60,7 +60,7 @@
     <div class="container-student ">
         <div class="card-account md-1 order-0">
             <div class="toppic">ข้อมูลผู้เรียน</div>
-            <div class="card-img-account"> <img src="Assets/img/Npru-logo.png" alt=""></div>
+            <div class="card-img-account"> <img src="src/images/Npru-logo.png" alt=""></div>
             <div class="account-detail">
                 <div class="toppic-input"> ชื่อ - สกุล : </div>
                 <div><input type="text" value="ณัฐพัฒน์พณ มณีฉายจิดาภา" class="field left" readonly></div>
@@ -96,7 +96,7 @@
         </div>
         <div class="card-leave md-1 order-1">
             <div class="toppic">ข้อมูลการลา</div>
-            <div class="leave-detail">
+            <div class="leave-detail box-2">
                 <div class="toppic-input"> </div>
                 <div class="leave-date"> <b> ประเภทการลา : </b> <select name="leave-type" id="leave-type">
                         <option value="leave-sick">ลาป่วย</option>
@@ -105,6 +105,10 @@
                         <option value="leave-maternity">ลาคลอด</option>
                         <option value="leave-military ">ลาเข้ารับตรวจเลือกทหาร</option>
                     </select></div>
+                <div class="leave-detail im-num">
+                    <div class="toppic-input "> เบอร์โทรฉุกเฉิน : <input type="num" id="im-num"> </div>
+
+                </div>
             </div>
             <div class="leave-detail input-leave-date">
                 <div class="toppic-input"> วัน/เดือน/ปี : </div>
@@ -124,10 +128,7 @@
                     <div class="drag-drop-text">Drag and drop your image here or click to select</div>
                 </label>
             </div>
-            <div class="leave-detail">
-                <div class="toppic-input "> เบอร์โทรฉุกเฉิน : </div>
-                <input type="num" id="im-num">
-            </div>
+
             <div class="check-box-leave">
                 <input type="checkbox" name="" id="check">
                 <div class="toppic-input ">ข้าพเจ้าสัญญาว่าจะติดตามงานในคาบเรียน และดำเนินการเองให้เรียบร้อยตามกำหนดเวลา

@@ -1,7 +1,10 @@
 body {
   background-image: url("http://pgm.npru.ac.th/npruds/data/images/23660346_1569675309776077_584564522_o.jpg");
   /* background-color: rgb(190, 203, 216); */
+  animation: fadeInOpacity .2s ease-in-out;
 }
+
+
 
 .bg-dark {
   background-color: rgb(1, 27, 53) !important;
