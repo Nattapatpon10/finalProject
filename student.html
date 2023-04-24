@@ -94,7 +94,7 @@
             <div class="toppic">ข้อมูลการลา</div>
             <div class="leave-detail">
                 <div class="toppic-input"> </div>
-                <div class="leave-date"> ประเภทการลา : <select name="leave-type" id="leave-type">
+                <div class="leave-date"> <b> ประเภทการลา : </b> <select name="leave-type" id="leave-type">
                         <option value="leave-sick">ลาป่วย</option>
                         <option value="leave-personal">ลากิจ</option>
                         <option value="leave-religious">ลาประกอบพิธีศาสนา</option>
@@ -107,6 +107,18 @@
                 <input type="date" id="leave-date" name="leave-start">
                 <div class="toppic-input"> ถึง </div>
                 <input type="date" id="leave-date" name="leave-end" format="dd-mm-yyyy">
+            </div>
+            <div class="leave-detail leave-detail-text">
+                <div class="toppic-input"> รายละเอียดการลา : </div>
+                <textarea name="leave-detail-text" id="leave-detail-text" cols="30" rows="10"></textarea>
+            </div>
+            <div class="leave-detail image-upload">
+                <div class="toppic-input "> หลักฐานการลา : </div>
+                <label for="image-upload" class="drag-drop-label">
+                    <input type="file" id="image-upload" accept="image/*" class="drag-drop-input">
+                    <img src="#" alt="Upload image" class="drag-drop-image">
+                    <div class="drag-drop-text">Drag and drop your image here or click to select</div>
+                </label>
             </div>
         </div>
     </div>
