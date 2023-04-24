@@ -1,0 +1,125 @@
+.container-student .toppic {
+    text-align: center;
+    font-size: 1.7rem;
+    color: #000;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+}
+
+.container-student {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    margin: auto;
+
+}
+
+@media (max-width: 1400px) {
+    .container-student {
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .card-leave {
+        order: 2;
+    }
+}
+
+
+
+.container-student .card-account {
+    background: rgba(211, 211, 211, 0.9);
+    box-shadow: 2px 2px 10px;
+    border: 3px solid #ffff;
+    border-radius: 10px;
+    outline: 10px;
+    margin: auto;
+    max-width: 650px;
+    width: 95%;
+    border-radius: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.container-student .card-leave {
+    background: rgba(211, 211, 211, 0.9);
+    box-shadow: 2px 2px 10px;
+    border: 3px solid #ffff;
+    border-radius: 10px;
+    outline: 10px;
+    max-width: 1050px;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+
+}
+
+.card-account .card-img-account {
+    width: 100px;
+    height: auto;
+    /* background: #ffff; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.card-account .card-img-account img {
+    width: 100px;
+}
+
+.container-student .card-account .account-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .9rem;
+}
+
+.container-student .card-account input {
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    width: 100%;
+    background: rgba(255, 255, 255, .5);
+}
+
+.toppic-input {
+    font-weight: bold;
+}
+
+.container-student .card-leave .leave-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .9rem;
+}
+
+.container-student .card-leave input {
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    width: 100%;
+    background: rgba(255, 255, 255, .5);
+}
+
+.container-student .card-leave .leave-date {
+    display: flex;
+    width: 100%;
+}
+
+.container-student .card-leave #leave-type {
+    border-radius: 7px;
+    margin-left: 2.5%;
+}
+
+.container-student .leave-detail #leave-date {
+    width: 32%;
+}

@@ -1,0 +1,226 @@
+body {
+  background-image: url("http://pgm.npru.ac.th/npruds/data/images/23660346_1569675309776077_584564522_o.jpg");
+  /* background-color: rgb(190, 203, 216); */
+}
+
+.bg-dark {
+  background-color: rgb(1, 27, 53) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show>.nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(228, 228, 228, 0.938);
+}
+
+.navbar-brand img {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 50px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.navbar {
+  font-size: 1.2rem;
+}
+
+.navbar .nav-item {
+  margin-left: 1.2rem;
+}
+
+.nav .nav-link {
+  font-size: 16px;
+  font-family: kanit;
+}
+
+.col-sm-4 h3 {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  text-shadow: 2px 1px 2px rgb(255, 0, 0);
+}
+
+/* #AboutBox {
+  margin-left: 240px;
+  margin-right: auto;
+} */
+#symbol {
+  font-family: "Prompt", sans-serif;
+}
+
+
+.container-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  /* set height to fill the viewport */
+}
+
+.container .card-login {
+  order: 2;
+  width: 95vw;
+  max-width: 400px;
+  height: auto;
+  background-color: rgba(163, 163, 163, 0.7);
+  /* เพิ่ม alpha value เป็น 0.5 เพื่อกำหนดค่า opacity ของพื้นหลัง */
+  border-radius: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: auto;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  box-shadow: 1px 1px 10px;
+  /* set margin to auto to center the element */
+
+}
+
+.card-input {
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  margin-bottom: 0px;
+
+}
+
+.card-input .username {
+  /* display: flex;
+  position: relative;
+  justify-content: space-between;
+  font-weight: bold; */
+  padding: 0rem;
+  margin: 0rem;
+  margin-top: 1rem;
+
+
+}
+
+
+
+.card-input .password {
+  /* display: flex;
+  position: relative;
+  justify-content: space-between;
+  font-weight: bold; */
+  padding: 0rem;
+  margin: 0rem;
+  margin-top: 1rem;
+  margin-bottom: 0px;
+}
+
+
+
+.card-input .username .input-user {
+  margin-top: .8rem;
+  margin-bottom: .8rem;
+  background: rgba(1, 27, 53, .9);
+  border-radius: 6px;
+}
+
+.card-input .password .input-pass {
+  margin-top: .8rem;
+  margin-bottom: .8rem;
+  background: rgba(1, 27, 53, .9);
+  border-radius: 6px;
+}
+
+.card-input .username img {
+  width: 30px;
+  margin-top: .8rem;
+  margin-bottom: .8rem;
+  margin-right: 5%;
+  border-radius: 4px 0px 0px 4px;
+  /* margin-left: 0px;
+  margin-right: .5rem;
+  padding: .2rem; */
+}
+
+.card-input .password img {
+  width: 30px;
+  margin-top: .8rem;
+  margin-bottom: .8rem;
+  margin-right: 5%;
+  border-radius: 4px 0px 0px 4px;
+
+}
+
+.card-input .username input {
+  width: 75%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: #ffff;
+}
+
+.card-input .password input {
+  width: 75%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: #ffff;
+}
+
+.card-input .btn-login {
+  color: white;
+  background: rgb(1, 27, 53);
+}
+
+
+
+.img-login {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  order: 1;
+  margin: auto;
+  margin-bottom: -3rem;
+
+  z-index: 2;
+}
+
+.img-login img {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  width: 120px;
+  height: auto;
+}
+
+
+.btn body {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.3s;
+}
+
+.card-input a {
+  text-decoration-line: none;
+  color: rgba(1, 27, 53);
+}
+
+.card-input a:hover {
+  text-decoration-line: none;
+  color: rgba(1, 27, 53, .5);
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
