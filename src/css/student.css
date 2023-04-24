@@ -27,6 +27,7 @@
     .card-account {
         order: 1;
         /* กำหนด margin ให้เว้นระยะห่างระหว่าง .card-account และ .card-leave */
+        margin-right: auto !important;
     }
 
     .card-leave {
@@ -34,10 +35,21 @@
         margin-top: 5% !important;
         /* กำหนด margin ให้เว้นระยะห่างระหว่าง .card-account และ .card-leave */
         margin-bottom: 15% !important;
+        margin-left: auto !important;
     }
 }
 
+/* @media (max-width: 1800px) {
 
+    .container-student .card-account {
+        width: 90% !important;
+
+    }
+
+    .container-student .card-leave {
+        width: 90% !important;
+    }
+} */
 
 .container-student .card-account {
     background: rgba(211, 211, 211, 0.9);
@@ -46,6 +58,7 @@
     border-radius: 10px;
     outline: 10px;
     margin: auto;
+    margin-right: 2rem;
     max-width: 635px;
     width: 95%;
     border-radius: 10px;
@@ -63,6 +76,7 @@
     max-width: 1035px;
     width: 95%;
     margin: auto;
+    margin-left: 2rem;
     border-radius: 10px;
     padding-left: 8%;
     padding-right: 8%;
