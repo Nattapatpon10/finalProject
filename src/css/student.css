@@ -32,9 +32,9 @@
 
     .card-leave {
         order: 2;
-        margin-top: 5% !important;
+        margin-top: 2rem !important;
         /* กำหนด margin ให้เว้นระยะห่างระหว่าง .card-account และ .card-leave */
-        margin-bottom: 15% !important;
+        margin-bottom: 3rem !important;
         margin-left: auto !important;
     }
 }
@@ -58,7 +58,7 @@
     border-radius: 10px;
     outline: 10px;
     margin: auto;
-    margin-right: 2rem;
+    margin-right: 1rem;
     max-width: 635px;
     width: 95%;
     border-radius: 10px;
@@ -76,7 +76,7 @@
     max-width: 1035px;
     width: 95%;
     margin: auto;
-    margin-left: 2rem;
+    margin-left: 1rem;
     border-radius: 10px;
     padding-left: 8%;
     padding-right: 8%;
