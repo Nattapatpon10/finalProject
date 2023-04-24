@@ -12,18 +12,28 @@
     align-items: center;
     margin: auto;
     height: 100vh;
-    margin: auto;
 
 }
 
 @media (max-width: 1400px) {
     .container-student {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         margin-top: 10rem;
+        margin-bottom: 10rem !important;
+    }
+
+    .card-account {
+        order: 1;
+        /* กำหนด margin ให้เว้นระยะห่างระหว่าง .card-account และ .card-leave */
     }
 
     .card-leave {
         order: 2;
+        margin-top: 5% !important;
+        /* กำหนด margin ให้เว้นระยะห่างระหว่าง .card-account และ .card-leave */
+        margin-bottom: 15% !important;
     }
 }
 
@@ -162,6 +172,11 @@
 
 }
 
+textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
 /* css ลากรูป */
 .drag-drop-label {
     position: relative;
@@ -197,4 +212,24 @@
 
 .img-uploading {
     align-items: center;
+}
+
+#im-num {
+    width: 80%;
+}
+
+/* check box */
+.check-box-leave {
+    display: flex;
+}
+
+.check-box-leave .toppic-input {
+    display: flex;
+    font-weight: normal;
+}
+
+.check-box-leave #check {
+    width: 13px;
+    height: auto;
+    margin-right: 5%;
 }
