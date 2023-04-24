@@ -127,6 +127,10 @@
 @media (max-width: 900px) {
     .input-leave-date {
         flex-direction: column;
-        margin-top: 5rem;
+        margin-top: .7rem;
+    }
+
+    .container-student .leave-detail #leave-date {
+        width: 70%;
     }
 }
