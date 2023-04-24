@@ -123,3 +123,10 @@
 .container-student .leave-detail #leave-date {
     width: 32%;
 }
+
+@media (max-width: 900px) {
+    .input-leave-date {
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+}
