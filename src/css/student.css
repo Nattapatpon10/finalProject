@@ -265,9 +265,10 @@ textarea {
 }
 
 .check-box-leave #check {
-    width: 13px;
+    align-items: center;
+    width: 13px !important;
     height: auto;
-    margin-right: 5%;
+    margin-right: 4%;
 }
 
 .im-num {
