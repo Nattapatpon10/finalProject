@@ -15,52 +15,11 @@
 
 }
 
-@media (max-width: 1400px) {
-    .container-student {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 10rem;
-        margin-bottom: 10rem !important;
-    }
 
-    .card-account {
-        order: 1;
-        /* กำหนด margin ให้เว้นระยะห่างระหว่าง .card-account และ .card-leave */
-        margin-right: auto !important;
-    }
-
-    .card-leave {
-        order: 2;
-        margin-top: 2rem !important;
-        /* กำหนด margin ให้เว้นระยะห่างระหว่าง .card-account และ .card-leave */
-        margin-bottom: 3rem !important;
-        margin-left: auto !important;
-    }
-
-    .box-2 {
-        flex-wrap: wrap;
-    }
-
-    .leave-date {
-        order: 1;
-    }
-
-    .im-num {
-        margin-top: 1rem;
-        order: 2;
-
-    }
-
-    #im-num {
-        width: 170px !important;
-        margin-left: 0px;
-    }
-}
 
 /* @media (max-width: 1800px) {
 
-    .container-student .card-account {
+    .container-student .card-student-account {
         width: 90% !important;
 
     }
@@ -70,7 +29,7 @@
     }
 } */
 
-.container-student .card-account {
+.container-student .card-student-account {
     background: rgba(211, 211, 211, 0.9);
     box-shadow: 2px 2px 10px;
     border: 3px solid #ffff;
@@ -99,12 +58,12 @@
     border-radius: 10px;
     padding-left: 7.5%;
     padding-right: 7.5%;
-    padding-bottom: 7.5%;
+    padding-bottom: 5.5%;
 
 
 }
 
-.card-account .card-img-account {
+.card-student-account .card-img-account {
     width: 100px;
     height: auto;
     /* background: #ffff; */
@@ -116,18 +75,19 @@
     margin-bottom: 1rem;
 }
 
-.card-account .card-img-account img {
+.card-student-account .card-img-account img {
     width: 100px;
 }
 
-.container-student .card-account .account-detail {
+.container-student .card-student-account .account-detail {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
     margin-bottom: .9rem;
 }
 
-.container-student .card-account input {
+.container-student .card-student-account input {
     border: 0;
     outline: 0;
     border-radius: 6px;
@@ -275,4 +235,124 @@ textarea {
     display: flex;
     align-items: center;
     width: 100%;
+}
+
+.btn-fix{
+    width: 95%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+}
+.btn-summit-po{
+    width: 95%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: right;
+}
+@media (max-width: 1400px) {
+    .container-student {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10rem;
+        margin-bottom: 10rem ;
+    }
+
+    .card-student-account {
+        order: 1;
+        /* กำหนด margin ให้เว้นระยะห่างระหว่าง .card-student-account และ .card-leave */
+        margin-right: auto !important;
+    }
+
+    .card-leave {
+        order: 2;
+        margin-top: 2rem !important;
+        /* กำหนด margin ให้เว้นระยะห่างระหว่าง .card-student-account และ .card-leave */
+        margin-bottom: 3rem !important;
+        margin-left: auto !important;
+    }
+
+    .box-2 {
+        flex-wrap: wrap;
+    }
+
+    .leave-date {
+        order: 1;
+    }
+
+    .im-num {
+        margin-top: 1rem;
+        order: 2;
+
+    }
+
+    #im-num {
+        width: 170px !important;
+        margin-left: 0px;
+    }
+    .btn-summit-po{
+        width: 95%;
+        margin: 1rem auto;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+@media (min-width: 1810px) {
+    .container-student{
+        margin-top: 0rem !important;
+      }
+    .container-student .card-student-account {
+        background: rgba(211, 211, 211, 0.9);
+        box-shadow: 2px 2px 10px;
+        border: 3px solid #ffff;
+        border-radius: 10px;
+        outline: 10px;
+        margin: auto;
+        margin-right: 1rem;
+        max-width: 635px !important;
+        width: 95% !important;
+        border-radius: 10px;
+        padding-left: 8%;
+        padding-right: 8%;
+    
+    }
+    
+    .container-student .card-leave {
+        background: rgba(211, 211, 211, 0.9);
+        box-shadow: 2px 2px 10px;
+        border: 3px solid #ffff;
+        border-radius: 10px;
+        outline: 10px;
+        max-width: 1035px !important;
+        width: 95% !important;
+        margin: auto;
+        margin-left: 1rem;
+        border-radius: 10px;
+        padding-left: 6% !important;
+        padding-right: 6% !important;
+        padding-bottom: 5.5%;
+    
+    
+    }
+    }
+@media (min-width: 1400px) {
+      .container-student{
+        margin-top: 2rem;
+      }
+      .card-student-account {
+        max-width: 635px;
+        width: 40% !important;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    
+    .card-leave {
+        max-width: 1035px;
+        width: 55% !important;
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+        padding-bottom: 5.5%;
+    }
 }

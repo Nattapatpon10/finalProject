@@ -1,0 +1,119 @@
+.container-account {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+.container-account .toppic {
+    text-align: center;
+    font-size: 1.7rem;
+    color: #000;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+}
+
+.card-account .card-img-account img {
+    width: 100px;
+}
+.card-account .card-img-account {
+    width: 100px;
+    height: auto;
+    /* background: #ffff; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.container-account .card-account{
+    justify-content:center;
+    align-items: center;
+    background: rgba(211, 211, 211, 0.9);
+    box-shadow: 2px 2px 10px;
+    border: 3px solid #ffff;
+    outline: 10px;
+    margin: auto;
+    max-width: 800px;
+    width: 95%;
+    border-radius: 10px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.container-account .card-account .account-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem auto;
+}
+@media (min-width: 1810px) {
+    .container-account .card-account{
+        justify-content:center;
+        align-items: center;
+        background: rgba(211, 211, 211, 0.9);
+        box-shadow: 2px 2px 10px;
+        border: 3px solid #ffff;
+        outline: 10px;
+        margin: auto;
+        max-width: 800px;
+        width: 95%;
+        border-radius: 10px;
+        padding-left: 12% ;
+        padding-right: 12% ;
+    }
+}
+@media (max-width: 1800px) {
+    .container-account{
+        margin-top: 5rem;
+    }
+    .container-account .card-account{
+        justify-content:center;
+        align-items: center;
+        background: rgba(211, 211, 211, 0.9);
+        box-shadow: 2px 2px 10px;
+        border: 3px solid #ffff;
+        outline: 10px;
+        margin: auto;
+        max-width: 800px;
+        width: 95%;
+        border-radius: 10px;
+        padding-left: 12% ;
+        padding-right: 12% ;
+    }
+}
+@media (max-width: 1000px) {
+    .container-account{
+        margin-top: 5rem;
+    }
+    .container-account .card-account{
+        justify-content:center;
+        align-items: center;
+        background: rgba(211, 211, 211, 0.9);
+        box-shadow: 2px 2px 10px;
+        border: 3px solid #ffff;
+        outline: 10px;
+        margin: auto;
+        max-width: 800px;
+        width: 95%;
+        border-radius: 10px;
+        padding-left: 6% ;
+        padding-right: 6% ;
+    }
+}
+.container-account .card-account .toppic-input{
+    font-weight: bold;
+}
+.container-account .card-account input{
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    background: rgba(255, 255, 255,.8);
+}
+.btn-summit{
+    width: 95%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+}
